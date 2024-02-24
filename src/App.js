@@ -20,8 +20,6 @@ const Header = styled.header`
   font-family: 'establishRetrosans'
 `;
 
-//aaaa
-
 // Main
 const Main = styled.main`
   display: flex;

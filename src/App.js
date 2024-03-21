@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { lazy, Suspense, useState } from 'react';
 import styled from 'styled-components';
 import './App.css';
-import AudioController from './CustomAudioPlayer.js';
+
+const AudioController = lazy(() => import('./CustomAudioPlayer.js'));
 
 // Layout
 const LayoutWrapper = styled.div`
@@ -49,19 +50,21 @@ const Footer = styled.footer`
 // App
 function App() {
   const [showController, setShowController] = useState(false);
-
   return (
     <LayoutWrapper>
       <Header>
         <h1>안녕하세요</h1>
       </Header>
       <Main>
-        <Controller
-          $showController={showController}
-          onMouseEnter={() => setShowController(true)}
-          onMouseLeave={() => setShowController(false)}>
+        <Suspense>
+          <Controller
+            $showController={showController}
+            onMouseEnter={() => setShowController(true)}
+            onMouseLeave={() => setShowController(false)}
+          >
           <AudioController src='./sfx/Eliza.mp3'/>
-        </Controller>
+          </Controller>
+        </Suspense>
       </Main>
       <Footer>
         <h3>footer</h3>

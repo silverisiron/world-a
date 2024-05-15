@@ -12,7 +12,7 @@ const CustomAudioPlayer = styled.div`
   height: 10px;
   border-radius: 50px;
   border: 2px solid;
-  border-color: greenyellow;
+  border-color: gray;
 `;
 
 // 오디오 컨트롤 버튼 스타일

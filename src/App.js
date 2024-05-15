@@ -24,11 +24,47 @@ const Header = styled.header`
 // Main
 const Main = styled.main`
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   flex: 1;
   text-align: center;
   background-color: #f0f0f0;
   padding: 20px;
+`;
+
+//Menu
+const Menu = styled.div`
+  width: 1000%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
+  gap: 10px;
+  overflow: hidden;
+  text-align: center;
+`;
+
+//MenuContent
+const MenuContent = styled.button`
+  height: 100%;
+  background-color: gray;
+  border: gray;
+  border-radius: 10px;
+  transition: all 0.5s;
+  text-align: center;
+  overflow: hidden;
+  &:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+`;
+//MenuContent2
+const MenuContent2 = styled(MenuContent)`
+  &:hover {
+  }
+`;
+//MenuContent3
+const MenuContent3 = styled(MenuContent)`
+  &:hover {
+  }
 `;
 
 // Controller
@@ -43,6 +79,7 @@ const Controller = styled.div`
 const Footer = styled.footer`
   background-color: #333;
   color: #fff;
+  font-size: 5px;
   padding: 10px;
   text-align: center;
 `;
@@ -56,6 +93,7 @@ function App() {
         <h1>안녕하세요</h1>
       </Header>
       <Main>
+        <Menu>
         <Suspense>
           <Controller
             $showController={showController}
@@ -65,9 +103,14 @@ function App() {
           <AudioController src='./sfx/Eliza.mp3'/>
           </Controller>
         </Suspense>
+          <MenuContent onClick={()=>{}}> 2000 </MenuContent>
+          <MenuContent2> 2024 </MenuContent2>
+          <MenuContent3> 1971 </MenuContent3>
+        </Menu>
       </Main>
       <Footer>
-        <h3>footer</h3>
+        <h3>©2024 SilverisIron. All Rights Reserved.</h3>
+        <a href='/'>Email</a>
       </Footer>
     </LayoutWrapper>
   );

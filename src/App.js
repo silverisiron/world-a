@@ -42,28 +42,36 @@ const Menu = styled.div`
 `;
 
 //MenuContent
-const MenuContent = styled.button`
+const MenuContent = styled.div`
   height: 100%;
-  background-color: gray;
   border: gray;
   border-radius: 10px;
   transition: all 0.5s;
   text-align: center;
   overflow: hidden;
+  background-image: url('/images/world-left.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  filter: blur(0px);
   &:hover {
-    background-color: black;
+    background-image: url('/images/world-left-night.png');
     cursor: pointer;
     transition: all 0.5s;
   }
 `;
 //MenuContent2
 const MenuContent2 = styled(MenuContent)`
+  background-image: url('/images/world-middle.png');
   &:hover {
+    background-image: url('/images/world-middle-night.png');
   }
 `;
 //MenuContent3
 const MenuContent3 = styled(MenuContent)`
+  background-image: url('/images/world-right.png');
   &:hover {
+    background-image: url('/images/world-right-night.png');
   }
 `;
 
@@ -73,6 +81,7 @@ const Controller = styled.div`
   right: ${({ $showController }) => $showController ? "0" : "-100px"};
   overflow: hidden;
   transition: all 0.2s;
+  z-index: 10;
 `;
 
 // footer
@@ -103,14 +112,14 @@ function App() {
           <AudioController src='./sfx/Eliza.mp3'/>
           </Controller>
         </Suspense>
-          <MenuContent onClick={()=>{}}> 2000 </MenuContent>
-          <MenuContent2> 2024 </MenuContent2>
-          <MenuContent3> 1971 </MenuContent3>
+          <MenuContent></MenuContent>
+          <MenuContent2></MenuContent2>
+          <MenuContent3></MenuContent3>
         </Menu>
       </Main>
       <Footer>
         <h3>©2024 SilverisIron. All Rights Reserved.</h3>
-        <a href='/'>Email</a>
+        <a href='mailto:silverisiron@gmail.com'>Email</a>
       </Footer>
     </LayoutWrapper>
   );

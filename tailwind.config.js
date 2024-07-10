@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         establishRetrosans: ['"EstablishRetrosans"', 'sans-serif'],
       },
+      boxShadow: {
+        'custom-blue': '0 0px 20px rgba(19, 22, 57, 1)', // 파란색 그림자
+      }
     },
   },
   plugins: [],

@@ -48,11 +48,17 @@ function App() {
                 {menuItems.map((item) => (
                   <div
                     key={item.id}
-                    className="h-full border-gray-300 rounded-xl transition-all duration-200 bg-cover bg-center bg-no-repeat"
+                    className="h-full border-gray-300 rounded-xl transition-all duration-200 bg-cover bg-center bg-no-repeat hover:shadow-custom-blue"
                     style={{ backgroundImage: item.backgroundImage }}
                     onClick={() => navigate(item.path)}
-                    onMouseOver={(e) => e.currentTarget.style.backgroundImage = item.hoverImage}
-                    onMouseOut={(e) => e.currentTarget.style.backgroundImage = item.backgroundImage}
+                    onMouseOver={(e) => {
+                      e.currentTarget.style.backgroundImage = item.hoverImage;
+                      e.currentTarget.classList.add('shadow-custom-blue');
+                    }}
+                    onMouseOut={(e) => {
+                      e.currentTarget.style.backgroundImage = item.backgroundImage;
+                      e.currentTarget.classList.remove('shadow-custom-blue');
+                    }}
                   />
                 ))}
               </div>

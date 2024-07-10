@@ -11,9 +11,9 @@ export const LayoutWrapper = styled.div`
 export const Header = styled.header`
   background-color: #333;
   color: #fff;
-  padding: 1px;
+  padding: 5px;
   text-align: center;
-  font-size: 9px;
+  font-size: 20px;
   font-family: 'establishRetrosans';
 `;
 
@@ -35,6 +35,10 @@ export const Menu = styled.div`
   gap: 10px;
   overflow: hidden;
   text-align: center;
+
+  @media (max-width: 550px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 // MenuContent
@@ -45,34 +49,34 @@ export const MenuContent = styled.div`
   transition: all 0.2s;
   text-align: center;
   overflow: hidden;
-  background-image: url('/images/world-left.png');
+  background-image: url('/images/world-1.png');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
   filter: blur(0px);
   &:hover {
-    background-image: url('/images/world-left-night.png');
+    background-image: url('/images/world-1-night.png');
     cursor: pointer;
     transition: all 0.5s linear;
     transition-delay: 0.1s;
   }
 `;
 
-// MenuContent2
-export const MenuContent2 = styled(MenuContent)`
-  background-image: url('/images/world-middle.png');
-  &:hover {
-    background-image: url('/images/world-middle-night.png');
-  }
-`;
+// // MenuContent2
+// export const MenuContent2 = styled(MenuContent1)`
+//   background-image: url('/images/world-middle.png');
+//   &:hover {
+//     background-image: url('/images/world-middle-night.png');
+//   }
+// `;
 
-// MenuContent3
-export const MenuContent3 = styled(MenuContent)`
-  background-image: url('/images/world-right.png');
-  &:hover {
-    background-image: url('/images/world-right-night.png');
-  }
-`;
+// // MenuContent3
+// export const MenuContent3 = styled(MenuContent1)`
+//   background-image: url('/images/world-right.png');
+//   &:hover {
+//     background-image: url('/images/world-right-night.png');
+//   }
+// `;
 
 // Controller
 export const Controller = styled.div`

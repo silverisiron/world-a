@@ -20,7 +20,7 @@ const AudioController = ({ src }) => {
   };
 
   return (
-    <div className="flex flex-row bg-gradient-to-r from-purple-700 via-yellow-300 to-green-400 p-9 h-10 rounded-full border-2 border-gray-400">
+    <div className="flex flex-row bg-gradient-to-r from-purple-700 to-yellow-300 p-9 h-10 rounded-full border-2 border-gray-400">
       <audio ref={audioRef} src={src} loop /> {/* loop 속성 추가 */}
       <button
         className="flex items-center bg-transparent border-none mr-1.5 focus:outline-none"

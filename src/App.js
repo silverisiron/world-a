@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useState } from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import './App.css';
+import { flagImg } from './data';
 
 const AudioController = lazy(() => import('./style/CustomAudioPlayer.js'));
 
@@ -67,11 +68,23 @@ function App() {
 
           {/* Detail Page */}
           {menuItems.map((item) => (
-            <Route key={item.id} path={item.path} element={<div>{
-              <div>
-                안녕하세요
-              </div>
-            }</div>} />
+            <Route key={item.id} path={item.path} element={
+              <>
+                <div className="flex mx-auto p-5">
+                  <div>
+                    Asia-Pacific
+                  </div>
+                </div>
+                <div className="flex mx-auto w-full h-96 bg-black">
+
+                </div>
+                <div className="grid grid-cols-9 gap-5 p-2">
+                  {flagImg.map((src, index) => (
+                    <img key={index} src={src} alt={`flag-${index}`} className="w-full h-full transition-all duration-200 hover:shadow-custom-black" />
+                  ))}
+                </div>
+              </>
+            } />
           ))}
         </Routes>
 

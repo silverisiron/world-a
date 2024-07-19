@@ -17,6 +17,7 @@ const menuItems = Array.from({ length: 3 }, (_, i) => ({
 function App() {
   const navigate = useNavigate();
   const [showController, setShowController] = useState(false);
+  const [selectedFlag, setSelectedFlag] = useState('');
 
   return (
     <>
@@ -75,12 +76,16 @@ function App() {
                     Asia-Pacific
                   </div>
                 </div>
-                <div className="flex mx-auto w-full h-96 bg-black">
-
+                <div className="flex flex-col items-center justify-center mx-auto w-full h-[500px] bg-white">
+                  <p>{selectedFlag.name}</p>
+                  {<img src={selectedFlag.src} alt={`Selected flag`} className="w-48 h-32 mt-2"/>}
+                  <p>{selectedFlag.script}</p>
                 </div>
-                <div className="grid grid-cols-9 gap-5 p-2">
-                  {flagImg.map((src, index) => (
-                    <img key={index} src={src} alt={`flag-${index}`} className="w-full h-full transition-all duration-200 hover:shadow-custom-black" />
+                <div className="grid grid-cols-10 gap-5 p-2">
+                  {flagImg.map((flag, index) => (
+                    <img key={index} src={flag.src} alt={`flag-${index}`} 
+                    className="w-full h-full transition-all duration-200 hover:shadow-custom-black"
+                    onClick={() => setSelectedFlag(flag)}/>
                   ))}
                 </div>
               </>

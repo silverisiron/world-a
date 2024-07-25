@@ -77,9 +77,17 @@ function App() {
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center mx-auto w-full h-[500px] bg-white">
-                  <p>{selectedFlag.name}</p>
-                  {<img src={selectedFlag.src} alt={`Selected flag`} className="w-48 h-32 mt-2"/>}
-                  <p>{selectedFlag.script}</p>
+                  <div className="flex items-center space-x-4">
+                    <div className="flex flex-col items-center">
+                    <p>{selectedFlag.name || "국가를 선택해주세요."}</p>
+                    {<img src={selectedFlag.src} alt={`Selected flag`} className="w-48 h-32 mt-2"/>}
+                    {<img src={selectedFlag.portrait} alt={`Selected portrait`} className="w-48 h-84 mt-2"/>}
+                    </div>
+                    <div className="flex flex-col items-center p-2 border-l-4 border-gray-300">
+                      <p>설명란</p>
+                      <p>{selectedFlag.script}</p>
+                    </div>
+                  </div>
                 </div>
                 <div className="grid grid-cols-10 gap-5 p-2">
                   {flagImg.map((flag, index) => (

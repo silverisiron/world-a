@@ -18,6 +18,7 @@ function App() {
   const navigate = useNavigate();
   const [showController, setShowController] = useState(false);
   const [selectedFlag, setSelectedFlag] = useState('');
+  const [hoveredItemId, setHoveredItemId] = useState(null);
 
   return (
     <>
@@ -50,18 +51,26 @@ function App() {
                 {menuItems.map((item) => (
                   <div
                     key={item.id}
-                    className="h-full border-gray-300 rounded-xl transition-all duration-200 bg-cover bg-center bg-no-repeat hover:shadow-custom-blue"
+                    className="relative h-full border-gray-300 rounded-xl transition-all duration-200 bg-cover bg-center bg-no-repeat hover:shadow-custom-blue"
                     style={{ backgroundImage: item.backgroundImage }}
                     onClick={() => navigate(item.path)}
                     onMouseOver={(e) => {
                       e.currentTarget.style.backgroundImage = item.hoverImage;
                       e.currentTarget.classList.add('shadow-custom-blue');
+                      setHoveredItemId(item.id);
                     }}
                     onMouseOut={(e) => {
                       e.currentTarget.style.backgroundImage = item.backgroundImage;
                       e.currentTarget.classList.remove('shadow-custom-blue');
+                      setHoveredItemId(null);
                     }}
-                  />
+                  >
+                    {hoveredItemId === item.id && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-xl">
+                        {item.id === 1 ? 'AMER' : item.id === 2 ? 'EMEA' : item.id === 3 ? 'APAC' : ''}
+                      </div>
+                    )}
+                  </div>
                 ))}
               </div>
             </main>

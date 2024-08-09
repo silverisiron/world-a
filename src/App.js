@@ -19,6 +19,18 @@ function App() {
   const [showController, setShowController] = useState(false);
   const [selectedFlag, setSelectedFlag] = useState('');
   const [hoveredItemId, setHoveredItemId] = useState(null);
+  const getFilteredFlags = (itemId) => {
+    switch (itemId) {
+      case 1:
+        return flagImg.filter(flag => (flag.group === 'america') && flag.type === 'show');
+      case 2:
+        return flagImg.filter(flag => (flag.group === 'europe' || flag.group === 'africa') && flag.type === 'show');
+      case 3:
+        return flagImg.filter(flag => (flag.group === 'asia' || flag.group === 'pacific') && flag.type === 'show');
+      default:
+        return [];
+    }
+  };
 
   return (
     <>
@@ -99,7 +111,7 @@ function App() {
                   </div>
                 </div>
                 <div className="grid grid-cols-10 gap-5 p-2">
-                  {flagImg.map((flag, index) => (
+                  {getFilteredFlags(item.id).map((flag, index) => (
                     <img key={index} src={flag.src} alt={`flag-${index}`} 
                     className="w-full h-full transition-all duration-200 hover:shadow-custom-black"
                     onClick={() => setSelectedFlag(flag)}/>

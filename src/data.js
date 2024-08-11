@@ -2,7 +2,7 @@ export const flagImg = [
   // ASIA Show
 
   {
-    name : '중화인민공화국',
+    name : '중화민국',
     src : '/images/old/Flag-China.jpg',
     group : 'asia',
     portrait : '/images/old/Portait-China.jpg',
@@ -29,15 +29,6 @@ export const flagImg = [
   },
 
   {
-    name : '몽골인민공화국',
-    src : '/images/old/Flag-Mongol.jpg',
-    group : 'asia',
-    portrait : '/images/old/Portait-Mongol.jpg',
-    script : '',
-    type : 'show'
-  },
-
-  {
     name : '자유인도공화국',
     src : '/images/old/Flag-India.png',
     group : 'asia',
@@ -58,6 +49,15 @@ export const flagImg = [
   {
     name : '스페인령 필리핀',
     src : '/images/old/Flag-SpanishPhilippines.jpg',
+    group : 'asia',
+    portrait : '',
+    script : '',
+    type : 'show'
+  },
+
+  {
+    name : '스페인령 오스트레일리아',
+    src : '/images/old/Flag-SpanishAustralia.jpg',
     group : 'asia',
     portrait : '',
     script : '',
@@ -137,6 +137,15 @@ export const flagImg = [
   },
 
   // EA
+
+  {
+    name : '몽골인민공화국',
+    src : '/images/old/Flag-Mongol.jpg',
+    group : 'asia',
+    portrait : '/images/old/Portait-Mongol.jpg',
+    script : '',
+    type : 'show'
+  },
 
   // SA
   
@@ -288,7 +297,7 @@ export const flagImg = [
     type : 'hidden'
   },
 
-  // EU
+  // EU Show
 
   {
     name : '스페인연합제국',
@@ -300,7 +309,7 @@ export const flagImg = [
   },
 
   {
-    name : '프랑스코뮌',
+    name : '프랑스제국',
     src : '/images/old/Flag-France.jpg',
     group : 'europe',
     portrait : '',
@@ -309,7 +318,7 @@ export const flagImg = [
   },
 
   {
-    name : '러시아연방',
+    name : '러시아사회주의연방',
     src : '/images/old/Flag-Russia.jpg',
     group : 'europe',
     portrait : '',
@@ -327,8 +336,8 @@ export const flagImg = [
   },
   
   {
-    name : '브리튼공화국',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '브리튼인민공화국',
+    src : '/images/old/Flag-Britain.png',
     group : 'europe',
     portrait : '',
     script : '',
@@ -417,13 +426,12 @@ export const flagImg = [
   },
   
   {
-    name : '스위스연방',
+    name : '스위스연방국',
     src : '/images/old/Flag-Uzbekistan.png',
     group : 'europe',
     portrait : '',
     script : '',
     type : 'show'
   },
-
 
 ];

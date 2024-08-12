@@ -65,7 +65,7 @@ export const flagImg = [
   },
 
   {
-    name : '터키',
+    name : '터키인민공화국',
     src : '/images/old/Flag-Turkey.jpg',
     group : 'asia',
     portrait : '',

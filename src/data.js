@@ -318,7 +318,7 @@ export const flagImg = [
   },
 
   {
-    name : '러시아사회주의연방',
+    name : '러시아연방',
     src : '/images/old/Flag-Russia.jpg',
     group : 'europe',
     portrait : '',
@@ -345,8 +345,8 @@ export const flagImg = [
   },
 
   {
-    name : '폴란드공화국',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '폴란드왕국',
+    src : '/images/old/Flag-Poland.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -355,7 +355,7 @@ export const flagImg = [
 
   {
     name : '이탈리아인민공화국',
-    src : '/images/old/Flag-Uzbekistan.png',
+    src : '/images/old/Flag-italy.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -363,8 +363,8 @@ export const flagImg = [
   },
 
   {
-    name : '유고슬라비아',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '유고슬라비아연방',
+    src : '/images/old/Flag-Yugoslavia.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -372,8 +372,8 @@ export const flagImg = [
   },
 
   {
-    name : '헝가리',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '헝가리왕국',
+    src : '/images/old/Flag-Hungary.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -381,8 +381,8 @@ export const flagImg = [
   },
 
   {
-    name : '루마니아',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '루마니아왕국',
+    src : '/images/old/Flag-Romania.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -390,8 +390,8 @@ export const flagImg = [
   },
 
   {
-    name : '불가리아',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '불가리아왕국',
+    src : '/images/old/Flag-Bulgaria.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -399,8 +399,8 @@ export const flagImg = [
   },
 
   {
-    name : '그리스',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '그리스왕국',
+    src : '/images/old/Flag-Greece.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -408,8 +408,8 @@ export const flagImg = [
   },
   
   {
-    name : '오스트리아공화국',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '오스트리아',
+    src : '/images/old/Flag-Austria.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -417,8 +417,8 @@ export const flagImg = [
   },
 
   {
-    name : '아일랜드',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '아일랜드노동자공화국',
+    src : '/images/old/Flag-Ireland.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -426,12 +426,65 @@ export const flagImg = [
   },
   
   {
-    name : '스위스연방국',
-    src : '/images/old/Flag-Uzbekistan.png',
+    name : '스위스연방',
+    src : '/images/old/Flag-Switzerland.jpg',
     group : 'europe',
     portrait : '',
     script : '',
     type : 'show'
   },
 
+  {
+    name : '발트연방',
+    src : '/images/old/Flag-Baltic.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    type : 'show'
+  },
+
+  {
+    name : '핀란드공화국',
+    src : '/images/old/Flag-.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    type : 'show'
+  },
+
+  {
+    name : '스웨덴왕국',
+    src : '/images/old/Flag-.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    type : 'show'
+  },
+
+  {
+    name : '노르웨이인민공화국',
+    src : '/images/old/Flag-.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    type : 'show'
+  },
+
+  {
+    name : '체코국',
+    src : '/images/old/Flag-.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    type : 'show'
+  },
+
+  {
+    name : '슬로바키아국',
+    src : '/images/old/Flag-.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    type : 'show'
+  },
 ];

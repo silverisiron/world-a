@@ -523,7 +523,7 @@ export const flagImg = [
 
   {
     name : '보헤미아왕국',
-    src : '/images/old/Flag_Bohemia.jpg',
+    src : '/images/old/Flag-Bohemia.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -531,4 +531,75 @@ export const flagImg = [
     type : 'show'
   },
 
+  // Africa Show
+
+  {
+    name : '스페인령 서아프리카',
+    src : '/images/old/Flag-SpanishWestAfrica.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '프랑스령 서아프리카',
+    src : '/images/old/Flag-Bohemia.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '자유브리튼공화국',
+    src : '/images/old/Flag-FreeBritain.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '스페인령 동아프리카',
+    src : '/images/old/Flag-Bohemia.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '프랑스령 남아프리카',
+    src : '/images/old/Flag-Bohemia.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '스페인령 이집트',
+    src : '/images/old/Flag-SpanishEgypt.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '에티오피아',
+    src : '/images/old/Flag-Ethiopia.jpg',
+    group : 'europe',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
 ];

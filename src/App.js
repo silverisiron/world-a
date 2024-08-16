@@ -101,7 +101,7 @@ function App() {
                   <div className="flex items-center space-x-4">
                     <div className="flex flex-col items-center">
                     <p>{selectedFlag.name || "국가를 선택해주세요."}</p>
-                    {<img src={selectedFlag.src} alt={`Selected flag`} className="w-48 h-32 mt-2 rounded"/>}
+                    {<img src={selectedFlag.src} alt={selectedFlag.name || `none` } className="w-48 h-32 mt-2 border-2 border-gray-200 rounded"/>}
                     {<img src={selectedFlag.portrait} alt={`Selected portrait`} className="w-48 h-84 mt-2"/>}
                     </div>
                     <div className="flex flex-col items-center p-2">
@@ -110,10 +110,10 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-8 gap-5 p-2 bg-gray-500">
+                <div className="grid grid-cols-8 gap-10 p-5 bg-gray-500">
                   {getFilteredFlags(item.id).map((flag, index) => (
                     <img key={index} src={flag.src} alt={`flag-${index}`} 
-                    className="w-full h-full transition-all duration-200 hover:shadow-custom-black border-8 border-gray-600 rounded"
+                    className="w-full h-full transition-all duration-200 hover:shadow-custom-black border-4 border-gray-100 rounded"
                     onClick={() => setSelectedFlag(flag)}/>
                   ))}
                 </div>

@@ -7,6 +7,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '/images/old/Portait-China.jpg',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -16,6 +17,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '/images/old/Portait-japan.jpg',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -25,6 +27,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '/images/old/Portait-SouthKorea.png',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -34,6 +37,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '/images/old/Portait-India.png',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -43,6 +47,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -52,6 +57,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -61,6 +67,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -70,6 +77,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -79,6 +87,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -88,6 +97,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -97,6 +107,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -106,6 +117,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -115,6 +127,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -124,6 +137,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -133,6 +147,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -144,6 +159,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '/images/old/Portait-Mongol.jpg',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -155,6 +171,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -164,6 +181,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -173,6 +191,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -182,6 +201,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -193,6 +213,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -202,6 +223,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -211,6 +233,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -220,6 +243,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -229,6 +253,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -238,6 +263,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -247,6 +273,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -258,6 +285,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -267,6 +295,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -276,6 +305,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
   
@@ -285,6 +315,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
 
@@ -294,6 +325,7 @@ export const flagImg = [
     group : 'asia',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'hidden'
   },
 
@@ -305,6 +337,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -314,6 +347,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -323,6 +357,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -332,6 +367,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -341,6 +377,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -350,6 +387,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -359,6 +397,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -368,6 +407,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -377,6 +417,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -386,6 +427,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -395,6 +437,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -404,6 +447,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -413,6 +457,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -422,6 +467,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
   
@@ -431,6 +477,7 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
@@ -440,51 +487,48 @@ export const flagImg = [
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
   {
     name : '핀란드공화국',
-    src : '/images/old/Flag-.jpg',
+    src : '/images/old/Flag-Finland.jpg',
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
   {
     name : '스웨덴왕국',
-    src : '/images/old/Flag-.jpg',
+    src : '/images/old/Flag-Sweden.jpg',
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
   {
     name : '노르웨이인민공화국',
-    src : '/images/old/Flag-.jpg',
+    src : '/images/old/Flag-Norway.jpg',
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
   {
-    name : '체코국',
-    src : '/images/old/Flag-.jpg',
+    name : '보헤미아왕국',
+    src : '/images/old/Flag_Bohemia.jpg',
     group : 'europe',
     portrait : '',
     script : '',
+    ideology : '',
     type : 'show'
   },
 
-  {
-    name : '슬로바키아국',
-    src : '/images/old/Flag-.jpg',
-    group : 'europe',
-    portrait : '',
-    script : '',
-    type : 'show'
-  },
 ];

@@ -602,4 +602,86 @@ export const flagImg = [
     ideology : '',
     type : 'show'
   },
+
+  // America Show
+
+  {
+    name : '미합중국',
+    src : '/images/old/Flag-UnitedStates.jpg',
+    group : 'america',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '누에바 에스파냐',
+    src : '/images/old/Flag-SpanishAmerica.jpg',
+    group : 'america',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '프랑스령 아메리카',
+    src : '/images/old/Flag-FrenchAmerica.jpg',
+    group : 'america',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '쿠바공화국',
+    src : '/images/old/Flag-Cuba.jpg',
+    group : 'america',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '아이티자유국',
+    src : '/images/old/Flag-Haiti.jpg',
+    group : 'america',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '스페인령 도미니카',
+    src : '/images/old/Flag-SpanishDomnica.jpg',
+    group : 'america',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '스페인령 브라질',
+    src : '/images/old/Flag-SpanishBrazil.jpg',
+    group : 'america',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
+
+  {
+    name : '프랑스령 수리남',
+    src : '/images/old/Flag-FrenchSuriname.jpg',
+    group : 'america',
+    portrait : '',
+    script : '',
+    ideology : '',
+    type : 'show'
+  },
 ];

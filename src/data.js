@@ -545,7 +545,7 @@ export const flagImg = [
 
   {
     name : '프랑스령 서아프리카',
-    src : '/images/old/Flag-Bohemia.jpg',
+    src : '/images/old/Flag-FrenchWestAfrica.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -565,7 +565,7 @@ export const flagImg = [
 
   {
     name : '스페인령 동아프리카',
-    src : '/images/old/Flag-Bohemia.jpg',
+    src : '/images/old/Flag-SpanishEastAfrica.jpg',
     group : 'europe',
     portrait : '',
     script : '',
@@ -575,7 +575,7 @@ export const flagImg = [
 
   {
     name : '프랑스령 남아프리카',
-    src : '/images/old/Flag-Bohemia.jpg',
+    src : '/images/old/Flag-FrenchSouthAfrica.jpg',
     group : 'europe',
     portrait : '',
     script : '',

@@ -5,7 +5,7 @@ export const flagImg = [
     name : '중화민국',
     src : '/images/old/Flag-China.jpg',
     group : 'asia',
-    portrait : '/images/old/Portait-China.jpg',
+    portrait : '/images/old/',
     script : '',
     ideology : '',
     type : 'show'
@@ -15,7 +15,7 @@ export const flagImg = [
     name : '일본국',
     src : '/images/old/Flag-Japan.jpg',
     group : 'asia',
-    portrait : '/images/old/Portait-japan.jpg',
+    portrait : '/images/old/',
     script : '',
     ideology : '',
     type : 'show'
@@ -25,7 +25,7 @@ export const flagImg = [
     name : '대한공화국',
     src : '/images/old/Flag-SouthKorea.jpg',
     group : 'asia',
-    portrait : '/images/old/Portait-SouthKorea.png',
+    portrait : '/images/old/',
     script : '',
     ideology : '',
     type : 'show'
@@ -35,7 +35,7 @@ export const flagImg = [
     name : '자유인도공화국',
     src : '/images/old/Flag-India.png',
     group : 'asia',
-    portrait : '/images/old/Portait-India.png',
+    portrait : '/images/old/',
     script : '',
     ideology : '',
     type : 'show'
@@ -157,7 +157,7 @@ export const flagImg = [
     name : '몽골인민공화국',
     src : '/images/old/Flag-Mongol.jpg',
     group : 'asia',
-    portrait : '/images/old/Portait-Mongol.jpg',
+    portrait : '/images/old/g',
     script : '',
     ideology : '',
     type : 'show'

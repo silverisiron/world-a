@@ -97,18 +97,17 @@ function App() {
                     Asia-Pacific
                   </div>
                 </div>
-                <div className="flex flex-col items-center justify-center mx-auto w-full h-[500px] bg-white">
-                  <div className="flex items-center space-x-4">
-                    <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center justify-center mx-auto w-full h-full bg-white">
+                <div className="flex items-center justify-center space-x-4 w-[80%] h-[80%] mx-auto">
+                  <div className="flex flex-col items-center mr-12">
                     <p>{selectedFlag.name || "국가를 선택해주세요."}</p>
-                    {<img src={selectedFlag.src} alt={selectedFlag.name || `none` } className="w-48 h-32 mt-2 border-2 border-gray-200 rounded"/>}
-                    {<img src={selectedFlag.portrait} alt={`Selected portrait`} className="w-48 h-84 mt-2"/>}
-                    </div>
-                    <div className="flex flex-col items-center p-2">
-                      <p>설명란</p>
-                      <p>{selectedFlag.script}</p>
-                    </div>
+                    <img src={selectedFlag.src} alt={selectedFlag.name || `none`} className="w-48 h-32 mt-2 border-2 border-gray-200 rounded"/>
+                    <img src={selectedFlag.portrait} alt={`Selected portrait`} className="w-48 h-72 mt-2"/>
                   </div>
+                  <div className="flex flex-col items-center w-[50%] border border-gray-300 rounded-md p-3 overflow-y-auto" style={{ whiteSpace: 'pre-wrap' }}>
+                    <p>{selectedFlag.script || '설명란'}</p>
+                  </div>
+                </div>
                 </div>
                 <div className="grid grid-cols-8 gap-10 p-5 bg-gray-500">
                   {getFilteredFlags(item.id).map((flag, index) => (

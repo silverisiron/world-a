@@ -9,8 +9,8 @@ const AudioController = lazy(() => import('./style/CustomAudioPlayer.js'));
 const menuItems = Array.from({ length: 3 }, (_, i) => ({
   id: i + 1,
   path: `/detail${i + 1}`,
-  backgroundImage: `url('/images/world-${i + 1}.png')`,
-  hoverImage: `url('/images/world-${i + 1}-night.png')`,
+  backgroundImage: `url('./images/world-${i + 1}.png')`,
+  hoverImage: `url('./images/world-${i + 1}-night.png')`,
 }));
 
 // App
@@ -50,7 +50,7 @@ function App() {
             onMouseEnter={() => setShowController(true)}
             onMouseLeave={() => setShowController(false)}
           >
-            <AudioController src='./sfx/Eliza.mp3' />
+            <AudioController src='./sfx/SoFarFromGod.mp3' />
           </div>
         </Suspense>
 

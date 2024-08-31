@@ -40,7 +40,7 @@ function App() {
           className="bg-gray-800 text-white p-1 text-center text-lg font-establishRetrosans cursor-pointer"
           onClick={() => navigate('/')}
         >
-          <h1>안녕하세요</h1>
+          <h1>세 제국</h1>
         </header>
         <Suspense fallback={<div>Loading...</div>}>
           <div

@@ -2,14 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Pages
 
-In the project directory, you can run:
+project:
 
-### `npm start`
+### `world-a`
 
-Runs the app in the development mode.\
-Open [Link](https://silverisiron.github.io/world-a/) to view it in your browser.
+Open [Link](https://silverisiron.github.io/world-a/) to view it in your browser.s
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Under development. Feature is not available.\

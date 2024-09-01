@@ -8,6 +8,6 @@ project:
 
 ### `world-a`
 
-Open [Link](https://silverisiron.github.io/world-a/) to view it in your browser.s
+Open [Link](https://silverisiron.github.io/world-a/) to view it in your browser.
 
 Under development. Feature is not available.\

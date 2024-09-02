@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Pages
 
-project:
+testing
 
-### `world-a`
+### `test`
 
 Open [Link](https://silverisiron.github.io/world-a/) to view it in your browser.
 
-Under development. Feature is not available.\
+Under development. Feature is not available.

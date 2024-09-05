@@ -9,7 +9,7 @@ module.exports = {
         establishRetrosans: ['"EstablishRetrosans"', 'sans-serif'],
       },
       boxShadow: {
-        'custom-blue': '0 0px 20px rgba(19, 22, 57, 1)', // 파란색 그림자
+        'custom-blue': '0 0px 20px rgba(19, 22, 57, 1)', // 그림자
         'custom-black': '0 0px 20px rgba(0, 0, 0, 1)',
       }
     },

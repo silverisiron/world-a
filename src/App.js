@@ -123,8 +123,10 @@ function App() {
 
         {/* Footer */}
         <footer className="bg-gray-800 text-white text-xs p-2.5 text-center">
-          <h3>©2024 SilverisIron. All Rights Reserved.</h3>
-          <a href='mailto:silverisiron@gmail.com'>Email</a>
+          <address>
+            <h3>©2024 SilverisIron. All Rights Reserved.</h3>
+            <a href='mailto:silverisiron@gmail.com'>Email</a>
+          </address>
         </footer>
       </div>
     </>
